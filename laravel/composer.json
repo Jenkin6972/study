@@ -1,0 +1,13 @@
+{
+    "name": "testor/composer_test",
+    "description": "learn composer",
+    "authors": [
+        {
+            "name": "jenkin",
+            "email": "525621437@qq.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "1.0.*"
+    }
+}

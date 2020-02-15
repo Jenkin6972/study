@@ -1,0 +1,40 @@
+<script>
+$(function(){
+    $("#loading").ajaxStart(function(){
+        $(this).html.("<img src='/jqueryStu/images/loading.gif' />");
+    });
+    $("#loading").ajaxSuccess(function(){
+        $(this).html.("");
+    // $(this).empty(); // 或者直接清除
+    });
+});
+</script>
+<div id="loading"></div>
+<script>
+$('#ajax_test2').click(function(){
+    $.ajax({
+    url :"./xxx.php",
+    type:'post',
+    data:'name=ZXCVB',
+    timeout:15000,
+    beforeSend:function(XMLHttpRequest){
+        //alert('远程调用开始...');
+        $("#loading").html.("<img src='/jqueryStu/images/loading.gif' />");
+    },
+    success:function(data,textStatus){
+        alert('开始回调，状态文本值：'+textStatus+' 返回数据：'+data);
+        // $("#loading").empty();
+    },
+    complete:function(XMLHttpRequest,textStatus){
+        // alert('远程调用成功，状态文本值：'+textStatus);
+        $("#loading").empty();
+    },
+    error:function(XMLHttpRequest,textStatus,errorThrown){
+        alert('error...状态文本值：'+textStatus+" 异常信息："+errorThrown);
+        $("#loading").empty();
+    }
+    });
+});
+</script>
+<input type.="button" id="ajax_test2" value="Ajax方式">
+<div id="loading"></div>
