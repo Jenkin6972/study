@@ -1,0 +1,458 @@
+公司项目的mb_string方法需要指定utf-8,不然会有乱码问题
+git管理后台:
+http://192.168.35.207/
+zhengj@nsw88.com
+87654321
+
+营销云:ssh://git@192.168.35.207:27656/cuijiaye/nswcloud.git
+老板助手:ssh://git@192.168.35.207:27656/linzhiwei/boss_nswyun.git
+
+老板助手测试ftp:
+ip  地 址：192.168.31.201
+ftp端口：21
+ftp用户名：bosshelper
+ftp密  码：G7V42F9w
+
+老板助手正式ftp:
+10.1.9.61
+boss_ftpuser
+LqSffoHUzsuf
+
+老板助手小程序前端地址:
+ssh://git@192.168.35.207:27656/nswyfb/xuanwo-boss-helper.git
+
+团队接口地址:http://192.168.35.210/account/login
+
+
+5188运营商接口:https://www.5118.com/apistore/b6997ca5-2bae-e711-80c8-1866da4dbcc0/-1
+站长之家接口:http://api.chinaz.com/ApiDetails/BaiduSnap
+
+企业邮箱:zhengj@nsw88.com  密码:nsw88.com
+
+CRM: zhengjie  密码crm123      郑捷     OA：119120503  密码nsw123
+http://oa.nsw88.com:88/page/maint/login/Page.jsp?templateId=4&gopage=&_token_=b6081ff1-91b7s-42ce-9329-143d5badca3f
+
+https://www.tapd.cn/65192952/prong/stories/view/1165192952001001139(产品需求)
+
+完成营销云后台不同管理员操作后台的行为记录.
+公司邮箱:
+用户:nswyun_code <nswyun_code@nsw88.com>
+密码:03LgPA9q69YA    SMTP服务器：smtp.nsw88.com    SMTP服务器端口：25
+
+https://bosshelper.nsw888.com/admin   账号:admin  密码:123456  老板助手测试后台
+
+老板助手测试
+ // 服务器地址
+    'hostname' => '192.168.31.201',
+    // 数据库名
+    'database' => 'bosshelper',
+    // 用户名
+    'username' => 'bosshelper_f',
+    // 密码
+    'password' => 'AfP44lwJohrc',
+
+老板助手正式
+zhengj     zhengj@nsw2020
+https://boss.nswyun.com/admin 
+
+旋涡老板助手(微信公众平台)
+nswxcx01@nsw81.com
+xuanwo88
+appid: wx92ea56cc1e21cea2
+app秘钥:56018f4e367328484bff0bff9a840351
+
+[营销云测试环境 网站基本信息]
+网     址：http://nswyun.nsw888.com/
+ip  地 址：58.67.213.232
+ftp 地 址：58.67.213.232
+ftp用户名：webmaster@NS10004579
+ftp密  码：TGO8O851
+
+腾讯语音产品:https://cloud.tencent.com/product/asr/pricing
+百度语音产品后台账号:(https://cloud.baidu.com/product/speech)
+旋涡营销平台        Xuanwo2018        https://login.bce.baidu.com/?login_type=uc
+
+个人微信公众平台: 
+appid:  wxc1e10a8545361505
+appsercret:   f6f7774947c38f7e5906ac382c7ab6f4
+
+个人小程序:
+appid:wx8d66cdaa01eb700a
+appsercret:90533e015fd48a122929b92003826a94
+
+个人github:
+Jenkin6972(525621437@qq.com)
+Qq147258-
+
+爆竹测试:
+会员登陆
+http://bz.nsw888.com/member/
+15900575916
+test123456
+后台
+http://bz.nsw888.com/ucsystem/
+admin
+nsw88.com
+
+营销云:
+正式环境：https://www.nswyun.com/   帐号：zhengj  密码：zhengj@nsw88.com
+测试环境：http://nswyun.nsw888.com/
+
+营销云正式ftp:
+ip: 10.1.9.41
+user: nsy_ftpuser
+psw: TW9x3x31
+
+营销云正式数据库:
+数据库 10.1.9.51    nsy_db_user  W4vST1kxc58T   nsy_db
+summary_suggest
+百度oss:
+images.nswyun.com
+AccessKeyID：6d218e6347784776a4b4daf1aa931741
+AccessKeySecret：b2c8f43099b4450faac5df46c1ed51d5
+
+宝塔:
+查看宝塔面板入口：/etc/init.d/bt default
+FTP账号资料
+用户：zhengjie0722_top
+密码：N4dT8bNeAaaChS7a
+数据库账号资料
+数据库名：zhengjie0722_top
+用户：zhengjie0722_top
+密码：hR3hzsi8cwWRwbcC
+
+腾讯地图key
+N2XBZ-DMUWG-A5QQS-I67IP-KQNOV-4MFZL
+
+营销云部门共享盘   \\192.168.4.107\营销云
+开始-运行 输入 \\192.168.4.107
+或者，浏览器输入http://192.168.4.107:5000/
+自己电脑开机账号密码。
+
+D:\git_yxy\nswcloud\nswyunmanage\sell_statistic.php:257:string 'INSERT INTO nsw_spread (tg_name,tg_code,tg_position,dp_id) VALUES ('王義敏','119092602','','59');' (length=100)
+D:\git_yxy\nswcloud\nswyunmanage\sell_statistic.php:257:string 'INSERT INTO nsw_spread (tg_name,tg_code,tg_position,dp_id) VALUES ('邓颖聪','119120502','客户成功经理','151');' (length=119)
+D:\git_yxy\nswcloud\nswyunmanage\sell_statistic.php:257:string 'INSERT INTO nsw_spread (tg_name,tg_code,tg_position,dp_id) VALUES ('彭仲瑶','119120501','渠道总监','151');' (length=113)
+D:\git_yxy\nswcloud\nswyunmanage\sell_statistic.php:257:string 'INSERT INTO nsw_spread (tg_name,tg_code,tg_position,dp_id) VALUES ('王晋','119121302','平面设计师','67');' (length=112)
+D:\git_yxy\nswcloud\nswyunmanage\sell_statistic.php:257:string 'INSERT INTO nsw_spread (tg_name,tg_code,tg_position,dp_id) VALUES ('李金辉','119121303','编辑师','1');' (length=108)
+D:\git_yxy\nswcloud\nswyunmanage\sell_statistic.php:257:string 'INSERT INTO nsw_spread (tg_name,tg_code,tg_position,dp_id) VALUES ('张丽红','119121301','策划师','1');' (length=108)
+D:\git_yxy\nswcloud\nswyunmanage\sell_statistic.php:257:string 'INSERT INTO nsw_spread (tg_name,tg_code,tg_position,dp_id) VALUES ('郑捷','119120503','PHP开发工程师','37');' (length=115)
+D:\git_yxy\nswcloud\nswyunmanage\sell_statistic.php:257:string 'INSERT INTO nsw_spread (tg_name,tg_code,tg_position,dp_id) VALUES ('','','','');' (length=80)
+
+
+1.
+获取请求中的值
+input all has
+判断请求类型
+method  ismethod  ajax  
+判断请求路径是否符合固定格式
+is('user/*')
+获取当前请求路径
+url
+
+2.session
+使用:全局的辅助函数 session，或者通过 Request 实例  session类
+put  push 
+获取:get() session() 
+存储:
+删除:
+暂存session:flash
+判断session是否存在:has
+
+3.response
+返回json:
+json()
+重定向:
+redirect->url()/route()/action()
+with()携带一次性session信息
+back()返回上一次的路径
+
+
+静态资源管理及模板布局:
+放在public目录下(jquery,bootstrap)    新建控制器(渲染试图)	index方法(展示学生列表页)
+建立index.blade.php模板文件    建立路由,访问控制器方法	common/layout.blade.php公共布局文件	分析静态页面的文件布局结构	title用yield()	头部section show	section菜单栏 show     section js文件 show      yield('content')中间的内容区块content在index.blade.php 
+建立message.blade.php放成功和失败提示
+
+asset()加载样式文件
+
+提示信息用include加载模板
+
+
+第三小节:
+表单列表以及分页的实现
+新建studentmodel
+设置表明,自动维护时间戳,设置一下获取和更新时的时间戳格式,
+打开controller,用orm的方式获取所有的学生数据,把值传给列表页面
+页面foreach循环遍历数据
+------分页-----------
+paginate()  和$page->render()
+
+第四小节
+新增数据及状态提示功能
+知识点1:继承模板布局,引入其他模板
+2.左侧菜单的选择状态显示
+3.添加成功或添加失败的提示
+继承模板文件,重写内容区块,把form表单文件放入内容区块中,加一条路由create方法
+把菜单模块的链接修改一些,student/index,以及菜单栏的默认选中状态如何判断
+看一下新增,
+获取到数据之后,通过模型去新增一下.save()保存
+如果成功,跳转列表页,同时提示添加成功,失败了就跳回去上一个请求页面.同时提示添加失败
+
+之后有session的一次性保存实现提示成功或者失败的功能,用到session需要使用session_start的中间件,这里用web的中间件在表单提交是post提交的时候会自动防csrf攻击,需要csrf_token()函数
+
+
+第五小节:1.控制器验证  2.validator验证  3.数据保持
+控制器验证流程:如果验证通过代码会继续往下执行,如果验证没通过,会返回上一个页面并抛出异常,将异常数据存在seesion中,把这个变量分配到视图中
+validator类验证
+数据保持
+withinput()   和old()方法
+
+
+公司主体表(主表)
+id    user_id(第一个创建者的id)    num(公司营业执照号)       name(公司名称)	   add_time  update_time
+公司成员表
+id    user_id(成员id)	  company_id(所属公司id)      add_time    update_time	status(成员状态)
+公司成员角色表
+id 	member_id  	role(总经理,法人)	add_time 	update_time	
+公司主体所属产品信息表(副表)
+id    user_id(贡献者user_id)    user_id_nsw(牛商云的用户id)	 company_id(公司主体id) 	产品信息字段(如投排数据,累计上词字段,昨日上词字段,媒体发布字段,问答发布字段) 	add_time()	update_time     
+
+修改列表页链接,
+新建链接方法,新建试图(update.blade.php),参考添加视图,
+然后将form表单提取出来,复用  . 用include()引入.      绑定路由,渲染页面,
+然后根据点击修改链接传递的id,通过模型查到这条数据.渲染数据的时候,需要做三元判断
+因为共用模板中有old(),  性别数据渲染在表单 ,  提交之后的逻辑,post请求,接收参数,将数据拿到,
+然后用save方法保存即可,如果保存成功跳转到列表页面,加上一次性的success信息.
+这个时候添加报错isset()  ,这个时候在把验证信息校验加上.
+
+表单的详情功能和删除功能:
+生成url链接   新建详情方法  新建模板文件   把详情的模板文件引入过来   加上路由    查一条记录,然后把数据渲染到详情模板上面     	把菜单状态保持住,如果不等于它的全部默认选中"学生列表"菜单
+
+删除功能:
+生成url  	新建删除方法      加上路由	根据id查找一条记录		然后调用delete方法		如果删除成功跳转到成功页面(index)	如果失败也是跳转到失败页面(index)  删除操作是一个危险操作,需要有一个删除确认框.
+
+
+表单总结:
+1.请求,响应 session 中间件  .完整的表单demo  
+
+
+composer:
+
+
+记录用户是否享受过老板认证的优惠记录表 nsw_data_boss_spread
+id   user_id    created_at   updated_at     money(金额)   type(类型,1购买/2充值)
+
+等级权益表
+id   jian_ce(智能检测)    search_article(全网搜)	faker_article(智能伪原创)	create_title(文章标题智能创意)		core(核心词智能挖掘)		long(长尾词智能挖掘)	
+
+
+角色等级权限表:
+年度会员   季度会员    月度会员
+1代表智能检测,2智能相关词挖掘 3.智能长尾词挖掘 4.智能图谱 5.全网搜索文章素材 6.一键智能伪原创 7.添加竞争对手
+在会员权益中2,3,4项和在一起算一个总的使用次数(不拆开)其余拆开单独算
+会员在续费后,没使用完的次数可以叠加~
+
+
+1.artisan简介
+查看artisan控制台有哪些可使用的命令 php artisan
+artisan基本用法 1.创建控制器  2.创建模型  3.创建中间件
+
+
+2.make:auth (创建立即可用的登录,注册,找回密码功能)
+修改模板样式路径
+修改.env配置文件更改数据库配置信息
+生成表用 php artisan migrations(使用数据迁移功能将两张表创建出来)
+
+3.
+
+
+文件上传功能
+1.修改配置文件,新建一个专门存放文件目录的配置 'uploads'=>[
+	'driver'=>'local',
+	'root'=>storage_path('app/uploads')
+]
+2.新建控制器,渲染文件上传的表单视图(借用登录页的模板)这里注意文件上传的表单类型
+3.在这之前需要先判断文件是否上传成功isValid(),打印上传的文件信息$request->file('表单字段名称'),取文件的原文件名getClientOriginalName,获取扩展名getClientOriginalExtension,获取文件类型信息getClientMimeType(),获取临时文件的绝对路径getRealPath()
+4.根据日期时间重命名要上传的文件名称
+5.上传文件到指定文件夹 Storage::disk('uploads')->put($filename,file_get_contents('临时文件的绝对路径'))
+6.如果想修改上传地址,可以将配置文件的root项,改成public_path('app/uploads')
+
+发送邮件功能
+1.配置config/mail.php文件(理解配置文件配置项的各项信息)
+2.修改.env文件,填写配置项信息
+3.发送  
+Mail::raw()  //存文本
+Mail::raw('邮件内容 测试内容',function($message){
+            $message->from('17724716830@163.com','慕课网jenkin');
+            $message->subject('邮件主题 测试主题');
+            $message->to('2483341565@qq.com');
+        });
+Mail::send()  //html
+Mail::send('student.mail',['name'=>'jenkin'],function($message){
+            $message->from('17724716830@163.com','慕课网jenkin');
+            $message->to('2483341565@qq.com');
+});
+
+
+缓存
+1.找到配置文件cache.php(查看个配置项的含义)
+2.新建cache1()方法,添加缓存  put()  add():返回值为bool类型,key值已存在会返回false   forever()
+新建cache2()方法,获取缓存  get()   pull()缓存取出来以后会把缓存删了   forget()从缓存中删除 ,删除成功返回true
+判断key是否存在 has()
+
+
+laravel错误与日志
+三种模式  debug模式   http异常    错误日志
+打开debug调试模式,遇到打印不存在的变量,或者输出不存在的视图是,会有直接很明确的提示
+http异常: abort('503')
+日志:
+查看日志支持哪些日志模式,在config/app.php中查看可配置项,在.env文件中加入对应配置项
+laravel支持single(单个文件),daily(根据日志文件每天生成一份日志文件),syslog,errorlog日志模式
+提供了debug ,info ,notice,warning,error,critical和alert 7个级别错误,其中error可以传递数组
+使用Log::info('这是一个info级别的日志')
+可以在storage/logs/laravel.log文件中查看记录的日志信息
+
+laravel队列
+步骤  1.迁移队列需要的数据表   2.编写任务类   3.推送任务到队列   4.运行队列监听器   5.处理失败任务
+迁移队列需要的数据表:
+1.查看队列的配置文件支持哪些驱动  config/queue.php
+2.修改驱动  .env文件改成数据库驱动 
+3.生成迁移队列所需要的数据表  php artisan queue:table
+4.运行迁移 php artisan migrate
+
+编写任务类:
+1.使用命令行创建任务类文件
+php  artisan  make:job SendEmail
+2.在生成的文件中写处理逻辑(如发生邮件).handle()方法
+Mail::raw()
+
+推送任务到队列:
+1.dispatch(new SendEmail('7527@163.com'));  此时在队列表jobs表中应当有一条记录
+
+运行队列监听器:
+php artisan queue:listen(有个坑,这里如果队列执行失败,会一直执行同一条队列,队列会卡在这里执行不下去)
+php artisan help queue:listen 使用help命令查看这条命令可用参数,发现--tries这个参数可也设置失败后的最大请求次数.
+
+处理失败任务:
+生成迁移的队列失败表  php artisan queue:failed-table(队列执行失败的单元会跑到这张表进来)
+查看失败的队列信息  php artisan queue:failed
+如果真的失败的队列想重新执行:
+1.php artisan queue:retry 1  (数字1代表队列id)
+2.php artisan queue:retry all(重新执行所有失败队列)
+假如一直失败,想删掉不想要的无用队列
+php artisan queue:forget id(数字1代表队列id)
+删除所有队列
+php artisan queue:flush
+
+1-4.透过现象看本质
+1.回忆知识点
+2.揣测面试官的考察思路
+3.量的前提是精
+
+2-1.引用变量的考点
+1.回顾真题(什么是引用变量,在php当中,用什么符号定义引用变量)
+引用变量的工作原理:
+$a =range(0,1000);
+$b = $a;
+$a = range(0,1000);
+1.cow机制 copy on write.
+只有当我们对$a或$b进行写操作时,才会在内存开辟一个新的空间.
+过程中可以使用memory_get_usage查看变量内存使用情况,作为验证手段
+2.zval结构体
+xdebug_debug_zval()这个函数可以帮助我们分析zval
+2.考点分析(引用变量工作原理,引用的概念,zval结构体)
+3.一网打尽(画图分析法)
+
+2-2引用变量考点(下)
+1.unset  
+只会取消引用,不会销毁内存空间
+2.对象本身是引用传递
+3.面试真题解析
+
+2-3.常量即数据类型考点
+字符串定义的三种方式
+单引号,双引号,heredoc和newdoc
+三种方式各自的特点及区别
+单引号:
+1.单引号不能解析变量
+2.单引号不能解析转义字符,只能解析单引号和反斜线本身
+3.变量和变量,变量和字符串,字符串和字符串直接可以用"."连接
+4.单引号的效率要高于双引号
+举个例子:
+$sql = "select * from user where name='$name'";
+$sql = 'select * from user where name = \''.$name.'\'';
+下一条sql的性能就比上一条好
+双引号:
+1.可以解析变量,变量可以使用特殊字符和{}包含
+2.双引号可以解析所以转义字符
+3.也可以使用"."来连接
+heredoc和newdoc:
+1.heredoc类似于双引号
+2.newdoc类似于单引号
+3.两种都是用来处理大文本
+4.语法 
+$str = <<<'EoT'
+XXXXXXXXXXXX
+EoT
+
+数据类型:
+八大数据类型(归类为三大标量,复合,特殊类型)
+1.浮点类型(浮点类型不能用于比较运算中)
+2.bool类型
+false的七种情况
+0 , 0.0 , ' ', '0',false ,array() ,null
+3.数组类型
+超全局数组$GLOBALS,$_GET,$_POST,$_REQUEST,$_SESSION,$_COOKIE,$_SERVER,$_FILES,$_ENV
+(1)其中$GLOBALS包含其他超全局数组的所有值,$_REQUEST包含$_GET,$_POST,$_COOKIE
+(2)$_SERVER
+$_SERVER['SERVER_ADDR'] : 服务器的地址
+$_SERVER['SERVER_NAME'] : 服务器的名称
+$_SERVER['REQUEST_TIME'] : 请求时间
+$_SERVER['QUERY_STRING'] : "?"后面的请求参数
+$_SERVER['HTTP_REFERER'] : "来源,上一个页面的地址"
+$_SERVER['HTTP_USER_AGENT'] : "当前请求的 User-Agent: 头部的内容"
+$_SERVER['REMOTE_ADDR'] : "客户端的ip地址"
+$_SERVER['REQUEST_URI'] : "访问此页面所需的 URI,如http:localhost/hello/index.php?id=2222,为/hello/index.php?id=2222" 
+$_SERVER['PATH_INFO'] : "http://www.imooc.com/index.php/use/reg?status =ghost 的path_info为/use/reg"
+
+4.null类型
+三种情况(直接赋值为null,未定义的变量,unset销毁的变量
+
+5.常量
+1.定义常量:define,const
+其中const更快,是语言结构,define是函数
+define不能用于类常量的定义,const可以
+常量一经定义,不能被修改,不能被删除
+2.预定义常量
+__FILE__:
+__LINE__:
+__DIR__:
+__FUNCTION__:
+__CLASS__:
+__TRAIT__:
+__METHOD__:
+__NAMESPACE__:
+
+
+2-4:运算符考察点
+1.运算符的优先级
+递增/递减 > ! >算术运算符 > 大小比较 > (不)相等比较 > 引用 > 位运算符(^) > 位运算符(|) > 逻辑与 > 逻辑或 > 三目 > 赋值 >and >xor >or
+2.比较运算符
+考点: == 和 ===的区别
+等值判断(false的七种情况)
+if(''==false){
+    echo '3';
+}
+if('0'==0){
+    echo '2';
+}
+if(0.0==0){
+    echo '1';
+}
+3.递增/递减运算符
+
+4.逻辑运算符
+
+
+
+
+

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>本例用来学习es6的新特性之let</title>
+</head>
+<body>
+
+</body>
+<script>
+    //知识点1
+    {
+        var x =2;
+    }
+    console.log(x);//2
+    {
+        let x =10;
+    }
+    console.log(x);//2   全局作用域无法访问块级作用域中用let声明的变量
+
+    //知识点2:
+    var i =5;
+    for(var i = 0;i<10;i++){
+
+    }
+    console.log(i);//10
+    let a = 5;
+    for(let a = 0 ;a<10;a++){
+        console.log(a);//0,1,2,3,4,5,6,7,8,9,10   使用let声明的变量作用域只在循环体内,循环体外的变量不受影响
+    }
+    console.log(a);//5
+
+    //知识点3
+    var carName="abc";
+    //在函数体内使用 var 和 let 关键字声明的变量有点类似。它们的作用域都是局部的,外部无法访问
+    function myFunction1(){
+        var carName="bcd";
+    }
+    function myFunction2(){
+        let carName="bcd";
+    }
+    myFunction1();
+    myFunction2();
+    console.log(carName);
+
+    //知识点4
+    //在函数体外或代码块外使用 var 和 let 关键字声明的变量也有点类似。它们的作用域都是全局的:
+    console.log("这里是分割线4--------------------------------------------")
+    var x =2;
+    let b =2;
+    console.log(x);
+    console.log(b);
+
+    //知识点5
+    console.log("这里是分割线5--------------------------------------------");
+    var car = "baoma";
+    let car1 = "benchi";
+    console.log(window.car);//baoma   使用var关键词声明的全局作用域变量属于window对象
+    console.log(window.car1);//undefined   使用let关键词声明的全局作用域变量不属于window对象
+
+    //知识点6(重置变量)
+    console.log("这里是分割线6--------------------------------------------");
+    var aa = 2;
+    var aa = 6;
+    console.log(aa);//6  var关键字声明的变量在任何地方都可以修改
+
+    var bb =2;
+    //let bb =3;//程序报错,在相同块级作用域中,不能用let声明修改var声明的变量
+
+    let cc =3;
+    //let cc =4;//程序保错,在相同作用域中,不能使用let关键词来重置let关键词声明的变量
+
+    let dd =2;
+    //var dd=4;//程序报错,在相同作用域中,不能使用var关键词来重置let关键词声明的变量
+
+    let ee = 2;
+    {
+        let ee=4;
+        console.log(ee);//4
+    }
+    {
+        let ee=6;
+        console.log(ee);//6
+    }
+    console.log(ee);//2
+
+    //知识点7(变量提升)
+    console.log("这里是分割线7--------------------------------------------");
+    carName=10;
+    console.log(carName);
+    var carName;//JavaScript 中，var 关键字定义的变量可以在使用后声明，也就是变量可以先使用再声明
+
+    abcd=100;
+    console.log(abcd);
+    //let abcd;//这里程序会报错 ,let 关键字定义的变量则不可以在使用后声明，也就是变量需要先声明再使用。
+
+    //知识点8(const和let)
+    //1.const和let都具有块级作用域的特性,不能再相同作用域下有同名变量
+    console.log("这里是分割线8--------------------------------------------");
+    const PI = 3.1415926;
+    let bcd = "好莱坞";
+    //var bcd ="sadas";
+    //var PI ="sadas";
+    console.log(bcd);
+    //2.const和let的区别:const声明的常量必须初始化,而let声明的变量不用;const定义常量的值不能通过再赋值修改,也不能再次声明.而let定义的变量值可以修改
+
+    //知识点9(const定义的变量并非真正的常量)
+    console.log("这里是分割线9--------------------------------------------");
+    //例1
+    const car33 ={
+      type :"Fiat",
+      model:"500",
+      color:"white"
+    };
+    car33.color="red";
+    car33.owner="jenkin";
+    console.log(car33);//这里我们发现原本不能被修改的常量,通过这种方式我们可以修改const的常量量
+
+    //例2
+    //修改常量数组
+    const breakfast = ['sanmingzhi','doujiang','hebaodan'];
+    breakfast[0]="hanbaobao";
+    breakfast.push("xiangchang");
+    console.log(breakfast);
+    //但是我们不能对常量对象重新赋值
+    // car33 = {
+    //     type:"danche",
+    //     owner:"meimei"
+    // }//这里会报错,因为不能对常量进行重新赋值
+
+    //breakfast = ['jidan','kaifei'];//这里会报错,因为不能对常量进行重新赋值
+
+</script>
+</html>
