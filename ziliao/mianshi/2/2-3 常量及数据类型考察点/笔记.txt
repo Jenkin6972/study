@@ -1,0 +1,32 @@
+1.字符串的三种定义方式:提示(单,双,here和new)
+2.三种定义方式各自区别:
+	1.单引号不能解析变量
+	2.单引号只能解析反斜杆和单引号本身
+	3.双引号可以解析变量
+	4.双引号可以解析所有转义字符,如'\t','\n','\r'(引用:https://baike.baidu.com/item/%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6/86397?fr=aladdin)
+	5.单引号效率更高
+	6.Heredoc 类似于双引号
+	7.Newdoc 类似于单引号
+	8.Heredoc和Newdoc都用来处理大文本
+3.三大数据类型(标量,复合,特殊)
+	标量:String（字符串）, Integer（整型）, Float（浮点型）, Boolean（布尔型）
+	复合:Array（数组）,Object（对象）
+	特殊: NULL（空值）,Resource资源（资源）
+4.布尔类型False的七种情况: 0, 0.0, '0', '', array(), false, null
+5.超全局数组$GLOBALS, $_GET, $_POST, $_REQUEST, $_SESSION, $_COOKIE, $_SERVER, $_FILES, $_ENV
+6.$_SERVER数组内容的常见含义
+7.NULL的三种情况: 
+	1.直接赋值为NULL
+	2.未定义的变量
+	3.unset销毁的变量
+8.常量的两种定义方式
+	1.const
+	2.define
+9.常量两种定义方式的区别
+	1.const是语言结构,不是函数,效率更快
+	2.define是函数
+	3.define不能用于类常量的定义,const可以
+10.八个预定义常量
+__CLASS__(获取类名),__METHOD__(获取类的函数名),__TRAIT__(获取引入的片段名),__NAMESPACE__(获取命名空间名)
+__LINE__(获取当前函数),__FILE__(获取文件完整路径包括文件名),__DIR__(获取当前目录)
+__FUNCTION__(获取函数名)
