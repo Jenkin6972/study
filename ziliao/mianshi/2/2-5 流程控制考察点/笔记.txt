@@ -1,9 +1,10 @@
-1.php遍历数组的三种方式
+﻿1.php遍历数组的三种方式
 	1.for
 	2.foreach
 	3.while、list()、each()
 2.三种遍历方式的区别
 	1.for循环只能遍历索引数组
 	2.foreach可以遍历索引和关联数组,联合使用list(),each()和while循环同样可以遍历索引和关联数组
+	3.foreach遍历会对数组进行reset()操作
 	
 	

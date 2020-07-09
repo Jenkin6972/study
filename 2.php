@@ -55,8 +55,43 @@
 //$o->sayExclamationMark();
 //var_dump($a=true);
 
-//定义循环的数组
-$arr = array('http://www.cnblogs.com/', '博客园', 'PHP教程');
-while (list($k, $v) = each($arr)) {
-    echo $k . '=>' . $v . '<br />';
-}
+////定义循环的数组
+//$arr = array('http://www.cnblogs.com/', '博客园', 'PHP教程');
+//while (list($k, $v) = each($arr)) {
+//    echo $k . '=>' . $v . '<br />';
+//}
+////each不会重置指针
+//reset($arr);
+//while (list($k, $v) = each($arr)) {
+//    echo $k . '=>' . $v . '<br />';
+//}
+
+//function myTest()
+//{
+//    static $x;
+//    var_dump($x);
+//    $x++;
+//    echo PHP_EOL;    // 换行符
+//}
+//
+//myTest();
+//myTest();
+//myTest();
+
+//函数的引用返回
+//function &test() {
+//    static $b=0;//申明一个静态变量
+//    $b=$b+1;
+//    echo $b;
+//    return $b;
+//}
+//
+//$a=test();//这条语句会输出　$b的值　为１
+//$a=5;
+//$a=test();//这条语句会输出　$b的值　为2
+//
+//$a=&test();//这条语句会输出　$b的值　为3
+//$a=5;
+//$a=test();//这条语句会输出　$b的值　为6
+//print_r(date_parse("2013-05-01 12:30:45.5"));
+echo "Oct 3, 1975 was on a ".date("l", mktime(0,0,0,10,3,1975));
