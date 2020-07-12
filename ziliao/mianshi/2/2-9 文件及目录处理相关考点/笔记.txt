@@ -1,0 +1,18 @@
+1.fopen函数的打开模式
+r/r+、w/w+、a/a+、x/x+、b、t
+2.读取函数
+fread() 、fgets()、fgetc()
+3.关闭文件函数
+fclose()
+4.不需要fopen()打开的函数
+file_get_contents()
+file_put_contents()
+5.其他读取函数
+file()
+readfile()
+6.目录操作函数
+名称相关:basename()、dirname()、pathinfo()
+目录读取:opendir()、readdir()、closedir()、rewinddir()
+目录删除:rmdir()
+目录创建:mkdir()
+7.其他函数
