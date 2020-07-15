@@ -383,7 +383,7 @@ echo $obj2->get('host');*/
 //
 //print_r($object);
 
-class Config1 {}
+/*class Config1 {}
 class Config
 {
 //* 必须先声明一个静态私有属性:用来保存当前类的实例
@@ -430,4 +430,80 @@ $obj1 = Config::getInstance();
 $obj2 = Config::getInstance();
 var_dump($obj1,$obj2);
 $obj1->set('host','localhost');
-echo $obj1->get('host');
+echo $obj1->get('host');*/
+/*class customException extends Exception
+{
+    public function errorMessage()
+    {
+        // 错误信息
+        $errorMsg = '错误行号 '.$this->getLine().' in '.$this->getFile()
+            .': <b>'.$this->getMessage().'</b> 不是一个合法的 E-Mail 地址';
+        return $errorMsg;
+    }
+}
+
+$email = "someone@example...com";
+
+try
+{
+    // 检测邮箱
+    if(filter_var($email, FILTER_VALIDATE_EMAIL) === FALSE)
+    {
+        // 如果是个不合法的邮箱地址，抛出异常
+        throw new customException($email);
+    }
+}
+
+catch (customException $e)
+{
+//display custom message
+    echo $e->errorMessage();
+}*/
+
+/*class customException extends Exception
+{
+    public function errorMessage()
+    {
+        // 错误信息
+        $errorMsg = '错误行号 '.$this->getLine().' in '.$this->getFile()
+            .': <b>'.$this->getMessage().'</b> 不是一个合法的 E-Mail 地址';
+        return $errorMsg;
+    }
+}
+
+$email = "someone@example.com";
+
+try
+{
+    // 检测邮箱
+    if(filter_var($email, FILTER_VALIDATE_EMAIL) === FALSE)
+    {
+        // 如果是个不合法的邮箱地址，抛出异常
+        throw new customException($email);
+    }
+    // 检测 "example" 是否在邮箱地址中
+    if(strpos($email, "example") !== FALSE)
+    {
+        throw new Exception("$email 是 example 邮箱");
+    }
+}
+catch (customException $e)
+{
+    echo $e->errorMessage();
+}
+catch(Exception $e)
+{
+    echo $e->getMessage();
+}*/
+
+/*function myException($exception)
+{
+    echo "<b>Exception:</b> " , $exception->getMessage();
+}
+
+set_exception_handler('myException');
+
+throw new Exception('Uncaught Exception occurred');*/
+//echo "<a href=''>111</a>";
+
+echo '<a href="mailto:17724716830@163.com?subject=邮件标题&body=邮件内容">告诉我们</a>';
