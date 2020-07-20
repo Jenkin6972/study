@@ -506,4 +506,7 @@ set_exception_handler('myException');
 throw new Exception('Uncaught Exception occurred');*/
 //echo "<a href=''>111</a>";
 
-echo '<a href="mailto:17724716830@163.com?subject=邮件标题&body=邮件内容">告诉我们</a>';
+//echo '<a href="mailto:17724716830@163.com?subject=邮件标题&body=邮件内容">告诉我们</a>';
+//$str = '[{\"domain\":\"www.znkia.cn\"},{\"domain\":"www.znkia.net\"},{\"domain\":\"www.znkia.com.cn\"}]';
+$str = '[{"domain":"www.znkia.cn"},{"domain":"www.znkia.net"},{"domain":"www.znkia.com.cn"}]';
+var_dump(addslashes($str));
