@@ -382,7 +382,7 @@ echo $obj2->get('host');*/
 //$object=Register::get('rand');
 //
 //print_r($object);
-
+//echo phpinfo();exit;
 /*class Config1 {}
 class Config
 {
@@ -459,7 +459,7 @@ catch (customException $e)
 //display custom message
     echo $e->errorMessage();
 }*/
-
+//echo phpinfo();exit;
 /*class customException extends Exception
 {
     public function errorMessage()
@@ -506,4 +506,10 @@ set_exception_handler('myException');
 throw new Exception('Uncaught Exception occurred');*/
 //echo "<a href=''>111</a>";
 
-echo '<a href="mailto:17724716830@163.com?subject=邮件标题&body=邮件内容">告诉我们</a>';
+//echo '<a href="mailto:17724716830@163.com?subject=邮件标题&body=邮件内容">告诉我们</a>';
+
+//sleep(5);
+$data = ['1',2,3,4,5,6];
+foreach($data as $val){
+    var_dump($val);
+}exit;
