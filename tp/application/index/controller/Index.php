@@ -1,6 +1,8 @@
 <?php
 namespace app\index\controller;
 use ali\Send;
+use think\Container;
+
 class Index
 {
     public function index()
@@ -19,5 +21,26 @@ class Index
 
     public function testapp(){
         var_dump(\Config::get("default_jsonp_handler"));
+    }
+    public function personbuy(){
+        /*
+        \di\Container::getInstance()->set('person',new \di\Person(new \di\Car()));
+        //\di\Container::getInstance()->set('car',new \di\Car());
+        $obj = \di\Container::getInstance()->get('person');
+        dump($obj->buy());
+        */
+        //修改成使用反射类的形式去实现
+        \di\Container::getInstance()->set('person',"\di\Person");
+        //\di\Container::getInstance()->set('car',"\di\Car");
+        $obj = \di\Container::getInstance()->get('person');
+        dump($obj->buy());
+    }
+    public function test111(){
+        //可以在provider.php文件进行配置绑定,这样就可以直接在容器中拿到car类
+        echo Container::get('car')->buy();
+    }
+    public function test222(){
+        $obj = new \di\Person(new \di\Car());
+        echo $obj->buy();
     }
 }
